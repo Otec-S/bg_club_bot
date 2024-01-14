@@ -1,10 +1,19 @@
-* {
+*, h1 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: var(--tg-theme-bg-color);
-  color: var(--tg-theme-text-color);
+  /* background-color: var(--tg-theme-bg-color);
+  color: var(--tg-theme-text-color); */
+    width: 100%;
+  max-width: 360px;
+  background-color: #11ACE1;
+  font-family: 'Jost', sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
+
+
