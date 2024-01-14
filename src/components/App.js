@@ -4,6 +4,7 @@ import { useTelegram } from "./hooks/useTelegram";
 import Header from "./Header/Header";
 import { Route, Router, Routes } from "react-router-dom";
 import SiteMenu from "./SiteMenu/SiteMenu";
+import Main from "./Main/Main";
 
 function App() {
   const { onToggleButton, tg } = useTelegram();
@@ -15,6 +16,7 @@ function App() {
   return (
     <div>
       <Header />
+      <Main />
       {/* <Routes>
         <Route />
       </Routes> */}
